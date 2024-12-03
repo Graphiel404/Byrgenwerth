@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/byrgenwerth/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/problems/</loc>
+    <loc>http://localhost:1313/byrgenwerth/problems/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/problems/20241203/</loc>
+    <loc>http://localhost:1313/byrgenwerth/problems/20241203/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>http://localhost:1313/byrgenwerth/notes/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/20241126/</loc>
+    <loc>http://localhost:1313/byrgenwerth/notes/20241126/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/20241125/</loc>
+    <loc>http://localhost:1313/byrgenwerth/notes/20241125/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/byrgenwerth/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/byrgenwerth/tags/</loc>
   </url>
 </urlset>

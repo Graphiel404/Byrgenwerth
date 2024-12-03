@@ -29,7 +29,7 @@
     
 
     
-        <meta property="og:url" content="http://localhost:1313/byrgenwerth/notes/20241126/">
+        <meta property="og:url" content="http://localhost:1313/byrgenwerth/notes/20241126/20241126/">
   <meta property="og:site_name" content="The Byrgenwerth Repository">
   <meta property="og:title" content="Notes on Directed Angles">
   <meta property="og:description" content="I highly warn that things here may be wrong.
@@ -214,10 +214,7 @@ Previous Next     / [pdf] View the PDF file here.">
     
     
     <p>I <strong>highly warn</strong> that things here may be wrong.</p>
-
-
-<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.4.120/build/pdf.min.js" integrity="sha256-UZQVSEoMbJ82/3uFjt4mYOTVVHIImtkp7u3L6LMH6/Y=" crossorigin="anonymous"></script>
-
+<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
 
 <style>
   #embed-pdf-container {
@@ -341,7 +338,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-12c0d0b1" href="
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
-      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.4.120/build/pdf.worker.min.js';
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "http:\/\/localhost:1313\/byrgenwerth\/" + 'js/pdf-js/build/pdf.worker.js';
 
     
     var pdfDoc = null,

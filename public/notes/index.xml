@@ -2,19 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Byrgenwerth Repository</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>http://localhost:1313/byrgenwerth/notes/</link>
     <description>Recent content on The Byrgenwerth Repository</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/byrgenwerth/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes on Directed Angles</title>
-      <link>http://localhost:1313/notes/20241126/</link>
+      <link>http://localhost:1313/byrgenwerth/notes/20241126/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/20241126/</guid>
+      <guid>http://localhost:1313/byrgenwerth/notes/20241126/</guid>
       <description>&lt;p&gt;I &lt;strong&gt;highly warn&lt;/strong&gt; that things here may be wrong.&lt;/p&gt;
-&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+
+
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/pdfjs-dist@3.4.120/build/pdf.min.js&#34; integrity=&#34;sha256-UZQVSEoMbJ82/3uFjt4mYOTVVHIImtkp7u3L6LMH6/Y=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
 
 &lt;style&gt;
   #embed-pdf-container {
@@ -98,36 +101,36 @@
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-7a73f1dc&#34;&gt;
-    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-7a73f1dc&#34;&gt;
-        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-7a73f1dc&#34;&gt;&lt;/div&gt;
+  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-12c0d0b1&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-12c0d0b1&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-12c0d0b1&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div id=&#34;overlayText&#34;&gt;
-      &lt;a href=&#34;http://localhost:1313/20241126.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+      &lt;a href=&#34;./20241126.pdf&#34; aria-label=&#34;Download&#34; download&gt;
         &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
             &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
         &lt;/svg&gt;
       &lt;/a&gt;
     &lt;/div&gt;
-    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-7a73f1dc&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-12c0d0b1&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-7a73f1dc&#34;&gt;
-    &lt;button id=&#34;pdf-prev-7a73f1dc&#34;&gt;Previous&lt;/button&gt;
-    &lt;button id=&#34;pdf-next-7a73f1dc&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-12c0d0b1&#34;&gt;
+    &lt;button id=&#34;pdf-prev-12c0d0b1&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-12c0d0b1&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
     &lt;span&gt;
-      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-7a73f1dc&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-7a73f1dc&#34;&gt;&lt;/span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-12c0d0b1&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-12c0d0b1&#34;&gt;&lt;/span&gt;
     &lt;/span&gt;
-    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-7a73f1dc&#34; href=&#34;http://localhost:1313/20241126.pdf&#34;&gt;[pdf]&lt;/a&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-12c0d0b1&#34; href=&#34;./20241126.pdf&#34;&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7a73f1dc&#34; href=&#34;http://localhost:1313/20241126.pdf&#34;&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-12c0d0b1&#34; href=&#34;./20241126.pdf&#34;&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type=&#34;text/javascript&#34;&gt;
     (function(){
-    var url = &#39;\/20241126.pdf&#39;;
+    var url = &#39;.\/20241126.pdf&#39;;
 
     var hidePaginator = &#34;&#34; === &#34;true&#34;;
     var hideLoader = &#34;&#34; === &#34;true&#34;;
@@ -138,7 +141,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
-      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#39;https://cdn.jsdelivr.net/npm/pdfjs-dist@3.4.120/build/pdf.worker.min.js&#39;;
 
     
     var pdfDoc = null,
@@ -146,10 +149,10 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById(&#39;pdf-canvas-7a73f1dc&#39;),
+        canvas = document.getElementById(&#39;pdf-canvas-12c0d0b1&#39;),
         ctx = canvas.getContext(&#39;2d&#39;),
-        paginator = document.getElementById(&#34;pdf-paginator-7a73f1dc&#34;),
-        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-7a73f1dc&#39;);
+        paginator = document.getElementById(&#34;pdf-paginator-12c0d0b1&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-12c0d0b1&#39;);
 
 
     
@@ -187,7 +190,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
       });
 
       
-      document.getElementById(&#39;pdf-pagenum-7a73f1dc&#39;).textContent = num;
+      document.getElementById(&#39;pdf-pagenum-12c0d0b1&#39;).textContent = num;
     }
 
     
@@ -231,7 +234,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById(&#39;pdf-prev-7a73f1dc&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+    document.getElementById(&#39;pdf-prev-12c0d0b1&#39;).addEventListener(&#39;click&#39;, onPrevPage);
 
     
 
@@ -242,14 +245,14 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById(&#39;pdf-next-7a73f1dc&#39;).addEventListener(&#39;click&#39;, onNextPage);
+    document.getElementById(&#39;pdf-next-12c0d0b1&#39;).addEventListener(&#39;click&#39;, onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById(&#39;pdf-pagecount-7a73f1dc&#39;).textContent = numPages;
+      document.getElementById(&#39;pdf-pagecount-12c0d0b1&#39;).textContent = numPages;
 
       
       if(pageNum &gt; numPages) {
@@ -265,11 +268,12 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
     
     <item>
       <title>Notes on EGMO, Chapter 1 - Angle Chasing</title>
-      <link>http://localhost:1313/notes/20241125/</link>
+      <link>http://localhost:1313/byrgenwerth/notes/20241125/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/20241125/</guid>
-      <description>&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+      <guid>http://localhost:1313/byrgenwerth/notes/20241125/</guid>
+      <description>&lt;script src=&#34;https://cdn.jsdelivr.net/npm/pdfjs-dist@3.4.120/build/pdf.min.js&#34; integrity=&#34;sha256-UZQVSEoMbJ82/3uFjt4mYOTVVHIImtkp7u3L6LMH6/Y=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
 
 &lt;style&gt;
   #embed-pdf-container {
@@ -353,36 +357,36 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-aff7979f&#34;&gt;
-    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-aff7979f&#34;&gt;
-        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-aff7979f&#34;&gt;&lt;/div&gt;
+  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-8b8abf58&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-8b8abf58&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-8b8abf58&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div id=&#34;overlayText&#34;&gt;
-      &lt;a href=&#34;http://localhost:1313/20241125.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+      &lt;a href=&#34;./20241125.pdf&#34; aria-label=&#34;Download&#34; download&gt;
         &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
             &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
         &lt;/svg&gt;
       &lt;/a&gt;
     &lt;/div&gt;
-    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-aff7979f&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-8b8abf58&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 
-&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-aff7979f&#34;&gt;
-    &lt;button id=&#34;pdf-prev-aff7979f&#34;&gt;Previous&lt;/button&gt;
-    &lt;button id=&#34;pdf-next-aff7979f&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-8b8abf58&#34;&gt;
+    &lt;button id=&#34;pdf-prev-8b8abf58&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-8b8abf58&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
     &lt;span&gt;
-      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-aff7979f&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-aff7979f&#34;&gt;&lt;/span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-8b8abf58&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-8b8abf58&#34;&gt;&lt;/span&gt;
     &lt;/span&gt;
-    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-aff7979f&#34; href=&#34;http://localhost:1313/20241125.pdf&#34;&gt;[pdf]&lt;/a&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-8b8abf58&#34; href=&#34;./20241125.pdf&#34;&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-aff7979f&#34; href=&#34;http://localhost:1313/20241125.pdf&#34;&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-8b8abf58&#34; href=&#34;./20241125.pdf&#34;&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type=&#34;text/javascript&#34;&gt;
     (function(){
-    var url = &#39;\/20241125.pdf&#39;;
+    var url = &#39;.\/20241125.pdf&#39;;
 
     var hidePaginator = &#34;&#34; === &#34;true&#34;;
     var hideLoader = &#34;&#34; === &#34;true&#34;;
@@ -393,7 +397,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-a
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
-      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#39;https://cdn.jsdelivr.net/npm/pdfjs-dist@3.4.120/build/pdf.worker.min.js&#39;;
 
     
     var pdfDoc = null,
@@ -401,10 +405,10 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-a
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById(&#39;pdf-canvas-aff7979f&#39;),
+        canvas = document.getElementById(&#39;pdf-canvas-8b8abf58&#39;),
         ctx = canvas.getContext(&#39;2d&#39;),
-        paginator = document.getElementById(&#34;pdf-paginator-aff7979f&#34;),
-        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-aff7979f&#39;);
+        paginator = document.getElementById(&#34;pdf-paginator-8b8abf58&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-8b8abf58&#39;);
 
 
     
@@ -442,7 +446,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-a
       });
 
       
-      document.getElementById(&#39;pdf-pagenum-aff7979f&#39;).textContent = num;
+      document.getElementById(&#39;pdf-pagenum-8b8abf58&#39;).textContent = num;
     }
 
     
@@ -486,7 +490,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-a
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById(&#39;pdf-prev-aff7979f&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+    document.getElementById(&#39;pdf-prev-8b8abf58&#39;).addEventListener(&#39;click&#39;, onPrevPage);
 
     
 
@@ -497,14 +501,14 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-a
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById(&#39;pdf-next-aff7979f&#39;).addEventListener(&#39;click&#39;, onNextPage);
+    document.getElementById(&#39;pdf-next-8b8abf58&#39;).addEventListener(&#39;click&#39;, onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById(&#39;pdf-pagecount-aff7979f&#39;).textContent = numPages;
+      document.getElementById(&#39;pdf-pagecount-8b8abf58&#39;).textContent = numPages;
 
       
       if(pageNum &gt; numPages) {
