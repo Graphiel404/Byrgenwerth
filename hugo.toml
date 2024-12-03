@@ -1,0 +1,25 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'The Byrgenwerth Repository'
+theme = "hugo-theme-monochrome"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+enable_site_search = true
+color_scheme = "dark"
+
+[[menu.navbar]]
+identifier = "problems"
+name = "Problems"
+title = "problems"
+url = "/problems/"
+weight = 1
+
+[[menu.navbar]]
+identifier = "notes"
+name = "Notes"
+title = "notes"
+url = "/notes/"
+weight = 0
